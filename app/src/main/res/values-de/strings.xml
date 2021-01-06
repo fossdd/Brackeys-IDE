@@ -1,0 +1,313 @@
+<!--
+  ~ Copyright 2020 Brackeys IDE contributors.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+
+    <string name="app_name" translatable="false">Brackeys IDE</string>
+
+    <string name="label_permissions">Berechtigungen</string>
+    <string name="label_directory">Ordner</string>
+    <string name="label_local_storage">Lokaler Speicher</string>
+    <string name="label_settings">Einstellungen</string>
+    <string name="label_application">Applikation</string>
+    <string name="label_editor">Editor</string>
+    <string name="label_code_style">Code-Style</string>
+    <string name="label_files">Datein</string>
+    <string name="label_about">Über</string>
+    <string name="label_fonts">Schriftarten</string>
+    <string name="label_external_font">Externe Schriftart</string>
+    <string name="label_themes">Design</string>
+    <string name="label_new_theme">Neues Design</string>
+    <string name="label_keyboard_preset">Keyboard preset</string>
+
+    <string name="hint_search">Suchen…</string>
+    <string name="hint_line">Zeile:</string>
+    <string name="hint_line_number" translatable="false">0</string>
+    <string name="hint_enter_file_name">Dateinamen eingeben</string>
+    <string name="hint_enter_file_path">Dateipfad eingeben</string>
+    <string name="hint_enter_archive_name">Archiv-Namen eingeben</string>
+    <string name="hint_file_path" translatable="false">/storage/emulated/0/Download/...</string>
+    <string name="hint_file_name" translatable="false">file.txt</string>
+    <string name="hint_archive_name" translatable="false">archive.zip</string>
+    <string name="hint_enter_font_name">Schriftartnamen eingeben</string>
+    <string name="hint_enter_font_path">Schriftartpfad eingeben</string>
+    <string name="hint_enter_theme_name">Designnamen eingeben</string>
+    <string name="hint_enter_theme_author">Designautor eingeben</string>
+    <string name="hint_enter_theme_desc">Kurze Beschreibung</string>
+    <string name="hint_font_name" translatable="false">Droid Sans Mono</string>
+    <string name="hint_theme_name" translatable="false">Darcula</string>
+    <string name="hint_theme_author" translatable="false">Brackeys IDE</string>
+    <string name="hint_theme_desc">StandarT Farbenschema</string>
+    <string name="hint_enter_preset_chars">Zeichen eingeben (ohne Trennung)</string>
+    <string name="hint_preset_chars" translatable="false">{}();,.=|&amp;![]&lt;&gt;+-/*?:_</string>
+
+    <string name="action_reset">Reset</string>
+    <string name="action_restart">Neustart</string>
+    <string name="action_grant_access">Zugriff erlauben</string>
+    <string name="action_yes">Ja</string>
+    <string name="action_no">Nein</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_create">Erstellen</string>
+    <string name="action_close">Schließen</string>
+    <string name="action_close_others">Andere schließen</string>
+    <string name="action_close_all">Alle schließen</string>
+    <string name="action_copy_path">Pfad kopieren</string>
+    <string name="action_folder">Ordner</string>
+    <string name="action_rename">Umbennen</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_insert">Einfügen</string>
+    <string name="action_run_in_background">Im Hintergrund</string>
+    <string name="action_show_hidden_files">Ausgeblendete-Datein anzeigen</string>
+    <string name="action_create_zip">.zip erstellen</string>
+    <string name="action_select">Auswählen</string>
+    <string name="action_import">Importieren</string>
+    <string name="action_export">Exportieren</string>
+    <string name="action_edit">Editieren</string>
+    <string name="action_remove">Entfernen</string>
+    <string name="action_new">Neu</string>
+    <string name="action_open">Öffnen</string>
+    <string name="action_open_as">Öffnen als</string>
+    <string name="action_save">Speichern</string>
+    <string name="action_save_as">Speichern als</string>
+    <string name="action_properties">Eigenschaften</string>
+    <string name="action_cut">Ausschneiden</string>
+    <string name="action_copy">Kopieren</string>
+    <string name="action_paste">Einfügen</string>
+    <string name="action_select_all">Alles auswählen</string>
+    <string name="action_select_line">Zeile auswählen</string>
+    <string name="action_delete_line">Zeile löschen</string>
+    <string name="action_duplicate_line">Zeile duplizieren</string>
+    <string name="action_regex">Regex</string>
+    <string name="action_match_case">Match Case</string>
+    <string name="action_words_only">Nur Wörter</string>
+    <string name="action_find">Finden</string>
+    <string name="action_close_find">Gefundene schließen</string>
+    <string name="action_replace">Ersetzen</string>
+    <string name="action_close_replace">Ersetzte schließen</string>
+    <string name="action_goto_line">Gehe zu Zeile</string>
+    <string name="action_go_to">Gehe zu</string>
+    <string name="action_error_checking">Fehler finden</string>
+    <string name="action_insert_color">Farbe einsetzen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_tools">Werkzeuge</string>
+
+    <string name="dialog_title_create">Erstellen…</string>
+    <string name="dialog_title_rename">Umbennen…</string>
+    <string name="dialog_title_multi_delete">Mehrere löschen</string>
+    <string name="dialog_title_exit">Exit</string>
+    <string name="dialog_title_properties">Eingenschaften</string>
+    <string name="dialog_title_color_picker">Farbe ausählen</string>
+    <string name="dialog_title_result">Ergebnis</string>
+    <string name="dialog_title_save_as">Speichern als…</string>
+    <string name="dialog_title_goto_line">Gehe zu Zeile…</string>
+    <string name="dialog_title_deleting">Löschen…</string>
+    <string name="dialog_title_copying">Kopieren…</string>
+    <string name="dialog_title_compressing">Verpacken…</string>
+    <string name="dialog_title_extracting">Extrahieren…</string>
+    <string name="dialog_title_archive_name">Archiv-Name</string>
+
+    <string name="dialog_message_exit">Sind Sie sicher, dass Sie beenden wollen? Alle Änderungen werden in einem Zwischenspeicher gespeichert</string>
+    <string name="dialog_message_delete">Sind Sie sicher, dass Sie diese Datei löschen wollen?</string>
+    <string name="dialog_message_multi_delete">Sind Sie sicher, dass Sie ausgewählte Dateien löschen wollen?</string>
+
+    <string name="properties_name">&lt;b>Name:&lt;/b> %s&lt;br&gt;</string>
+    <string name="properties_path">&lt;b>Pfad:&lt;/b> %s&lt;br&gt;</string>
+    <string name="properties_modified">&lt;b>Geändert:&lt;/b> %s&lt;br&gt;</string>
+    <string name="properties_size">&lt;b>Größe:&lt;/b> %s&lt;br&gt;</string>
+    <string name="properties_line_count">&lt;b>Zeilen:&lt;/b> %d&lt;br&gt;</string>
+    <string name="properties_word_count">&lt;b>Wörter:&lt;/b> %d&lt;br&gt;</string>
+    <string name="properties_char_count">&lt;b>Zeichen:&lt;/b> %d</string>
+    <string name="properties_readable">R</string>
+    <string name="properties_writable">W</string>
+    <string name="properties_executable">X</string>
+
+    <string name="properties_date_format">dd.MM.yyyy EEE HH:mm</string>
+    <string name="explorer_date_format">dd MMM yy E HH:mm:ss</string>
+
+    <string name="sort_by_name">Sortieren nach Name</string>
+    <string name="sort_by_size">Sortieren nach Größe</string>
+    <string name="sort_by_date">Sortieren nach Datum</string>
+
+    <string name="message_access_denied">Zugang nicht erlaubt</string>
+    <string name="message_access_required">Anwendung benötigt Speicherzugriff, um mit Dateien zu arbeiten</string>
+    <string name="message_no_result">Kein Ergebins</string>
+    <string name="message_no_open_files">Keine offenen Dateien</string>
+    <string name="message_tab_limit_achieved">Tabulatorgrenze erreicht</string>
+    <string name="message_cannot_be_opened">Datei kann nicht geöffnet werden</string>
+    <string name="message_invalid_file_name">Ungültiger Dateiname</string>
+    <string name="message_invalid_file_path">Ungültiger Dateipfad</string>
+    <string name="message_unknown_exception">Fehler aufgetreten</string>
+    <string name="message_directory_expected">Liste der Dateien kann nicht aus Datei abgerufen werden</string>
+    <string name="message_file_already_exists">Datei existiert bereits</string>
+    <string name="message_file_not_found">Datei nicht gefunden</string>
+    <string name="message_out_of_memory">Kein Speicherplatz vorhanden</string>
+    <string name="message_unsupported_archive">Nicht unterstütztes Archiv</string>
+    <string name="message_invalid_archive">Ungültiges Archiv</string>
+    <string name="message_split_archive">Archiv wird geteilt</string>
+    <string name="message_encrypted_archive">Archiv ist verschlüsselt</string>
+    <string name="message_done">Fertig</string>
+    <string name="message_saved">Gespeichert</string>
+    <string name="message_select_file">Datei auswählen</string>
+    <string name="message_nothing_to_cut">Nichts zum ausscheiden</string>
+    <string name="message_nothing_to_copy">Nichts zum kopieren</string>
+    <string name="message_nothing_to_paste">Nichts zum einfügen</string>
+    <string name="message_line_not_exists">Zeile nicht vorhanden</string>
+    <string name="message_no_errors_detected">Keine Syntaxfehler erkannt</string>
+    <string name="message_in_app_update_ready">App ist bereit zum Update</string>
+    <string name="message_in_app_update_failed">Update-Installation fehlgeschlagen</string>
+    <string name="message_selected">«%1$s» ausgewählt</string>
+    <string name="message_new_font_available">Neue Schriftart verfügbar: %1$s</string>
+    <string name="message_font_removed">«%1$s» entfernt</string>
+    <string name="message_new_theme_available">Neues Design verfügbar: %1$s</string>
+    <string name="message_theme_removed">«%1$s» entfernt</string>
+    <string name="message_theme_exported">Design gespeichert zu %1$s</string>
+    <string name="message_theme_syntax_exception">Beim Lesen der Themendatei ist ein Fehler aufgetreten</string>
+    <string name="message_elapsed_time">Abgelaufene Zeit: %1$s</string>
+    <string name="message_deleting">Löschen…%1$s</string>
+    <string name="message_copying">Kopieren…%1$s</string>
+    <string name="message_compressing">Verpacke…%1$s</string>
+    <string name="message_extracting">Extrahiere…%1$s</string>
+    <string name="message_of_total" translatable="false">%1$d / %2$d</string>
+    <string name="message_wrong_encoding">Datei wurde mit falscher Kodierung geladen</string>
+
+    <string name="font_panagram" translatable="false">the quick brown fox jumps over the lazy dog\n1234567890.:,;\'(!?) +-*/=</string>
+    <string name="font_support_ligatures">* Ligaturen unterstützen</string>
+    <string name="font_disclaimer">Wenn Sie diese Schriftart verwenden möchten, löschen Sie nicht die .ttf-Datei unter dem angegebenen Pfad</string>
+    <string name="preset_disclaimer">Sie können Zeichen mehrfach wiederholen</string>
+
+    <string name="theme_property_text_color">Definiert die Textfarbe des Editors</string>
+    <string name="theme_property_background_color">Definiert die Hintergrundfarbe des Editors</string>
+    <string name="theme_property_gutter_color">Definiert die Hintergrundfarbe der Rinne</string>
+    <string name="theme_property_gutter_divider_color">Definiert die Farbe der Trennlinie der Rinne.</string>
+    <string name="theme_property_gutter_divider_current_line_number_color">Legt die Zeilennummernfarbe der ausgewählten Linie im Zwischenraum fest</string>
+    <string name="theme_property_gutter_text_color">Definiert die Farbe der Zeilennummern im Zwischenraum</string>
+    <string name="theme_property_selected_line_color">Definiert die Farbe der ausgewählten Zeile im Editor</string>
+    <string name="theme_property_selection_color">Definiert die Selektionsfarbe im Editor</string>
+    <string name="theme_property_suggestion_query_color">Definiert die Farbe des Vorschlagstextes im Dropdown-Menü</string>
+    <string name="theme_property_find_result_background_color">Definiert die Hintergrundfarbe der gefundenen Ergebnisse</string>
+    <string name="theme_property_delimiter_background_color">Defines the background color of matching delimiters</string>
+    <string name="theme_property_numbers_color">Defines the numbers color of syntax highlighting: 123, 0.5, 0xFF, etc.</string>
+    <string name="theme_property_operators_color">Defines the operators color of syntax highlighting: +-*/=, [, ], {, }, (, )</string>
+    <string name="theme_property_keywords_color">Defines the keywords color of syntax highlighting: function, if, else, etc.</string>
+    <string name="theme_property_types_color">Defines the types color of syntax highlighting: const, var, let, etc.</string>
+    <string name="theme_property_lang_const_color">Defines the language constants color of syntax highlighting: true, false, null, etc.</string>
+    <string name="theme_property_preprocessor_color">Defines the preprocessor and annotation color: @Override, #include, …</string>
+    <string name="theme_property_methods_color">Defines the methods color of syntax highlighting</string>
+    <string name="theme_property_strings_color">Defines the string literals color of syntax highlighting</string>
+    <string name="theme_property_comments_color">Defines the comments color of syntax highlighting: //, /**/</string>
+    <string name="theme_property_tag_color">Defines the color of tags in markup languages: &lt;, &lt;&gt;, /&gt;</string>
+    <string name="theme_property_tag_name_color">Defines the color of tag names in markup languages: &lt;tag&gt;</string>
+    <string name="theme_property_attr_name_color">Defines the color of attribute names in markup languages: &lt;tag attr=…/&gt;</string>
+    <string name="theme_property_attr_value_color">Defines the color of attribute values in markup languages: &lt;tag attr=\"value\"/&gt;</string>
+    <string name="theme_property_entity_ref_color">Defines the color of entity references in markup languages: &amp;amp; &amp;lt; &amp;gt; …</string>
+
+    <string name="encoding_utf8_default">UTF-8 (Default)</string>
+
+    <string name="view_mode_compact_list">Compact List</string>
+    <string name="view_mode_detailed_list">Detailed List</string>
+
+    <string name="linebreak_cr" translatable="false">CR (Mac/Unix)</string>
+    <string name="linebreak_lf" translatable="false">LF (Android/Linux)</string>
+    <string name="linebreak_crlf" translatable="false">CRLF (Windows)</string>
+
+    <string name="pref_header_application_title">Application</string>
+    <string name="pref_header_application_summary">Configure global application settings.</string>
+    <string name="pref_header_editor_title">Editor</string>
+    <string name="pref_header_editor_summary">Configure the editor.</string>
+    <string name="pref_header_codeStyle_title">Code Style</string>
+    <string name="pref_header_codeStyle_summary">Configure the code style.</string>
+    <string name="pref_header_files_title">Files</string>
+    <string name="pref_header_files_summary">Configure how files are handled.</string>
+    <string name="pref_header_about_title">About</string>
+    <string name="pref_header_about_summary">View information about Brackeys IDE.</string>
+
+    <string name="pref_category_look_and_feel">Look And Feel</string>
+    <string name="pref_category_other">Other</string>
+    <string name="pref_category_font">Font</string>
+    <string name="pref_category_editor">Editor</string>
+    <string name="pref_category_keyboard">Keyboard</string>
+    <string name="pref_category_code_style">Code Style</string>
+    <string name="pref_category_tab_options">Tab Options</string>
+    <string name="pref_category_encoding">Encoding</string>
+    <string name="pref_category_linebreaks">Linebreaks</string>
+    <string name="pref_category_file_explorer">File Explorer</string>
+    <string name="pref_category_about">About</string>
+    <string name="pref_category_contribute">Contribute</string>
+
+    <string name="pref_color_scheme_title">Color Scheme</string>
+    <string name="pref_color_scheme_summary">Configure the syntax highlighting color scheme.</string>
+    <string name="pref_fullscreen_title">Full screen</string>
+    <string name="pref_fullscreen_summary">Launch the application in full screen mode.</string>
+    <string name="pref_confirm_exit_title">Confirm exit from the app</string>
+    <string name="pref_confirm_exit_summary">If you press back, Brackeys IDE ask for confirmation to exit.</string>
+
+    <string name="pref_font_size_title">Editor font size</string>
+    <string name="pref_font_size_summary">Specify the default font size of editor.</string>
+    <string name="pref_font_type_title">Editor font type</string>
+    <string name="pref_font_type_summary">Specify the default font type of editor.</string>
+    <string name="pref_word_wrap_title">Word Wrap</string>
+    <string name="pref_word_wrap_summary">Enable word wrap to fit screen width.</string>
+    <string name="pref_code_completion_title">Code Completion</string>
+    <string name="pref_code_completion_summary">Show autocomplete suggestions.</string>
+    <string name="pref_error_highlighting_title">Error Highlighting</string>
+    <string name="pref_error_highlighting_summary">Enable realtime error highlighting. Restart required.</string>
+    <string name="pref_pinch_zoom_title">Pinch Zoom</string>
+    <string name="pref_pinch_zoom_summary">Enable zoom gesture in the editor.</string>
+    <string name="pref_highlight_line_title">Highlight Current Line</string>
+    <string name="pref_highlight_line_summary">Highlight the line where the caret currently resides.</string>
+    <string name="pref_highlight_delimiters_title">Highlight Matching Delimiters</string>
+    <string name="pref_highlight_delimiters_summary">Highlight the opening or closing delimiter when you set the caret at its pair.</string>
+    <string name="pref_extended_keyboard_title">Extended Keyboard</string>
+    <string name="pref_extended_keyboard_summary">Show additional keys above the keyboard.</string>
+    <string name="pref_keyboard_preset_title">Keyboard Preset</string>
+    <string name="pref_keyboard_preset_summary">Choose preset for extended keyboard.</string>
+    <string name="pref_soft_keyboard_title">Soft Keyboard</string>
+    <string name="pref_soft_keyboard_summary">Always use soft keyboard.</string>
+
+    <string name="pref_auto_indent_title">Auto Indentation</string>
+    <string name="pref_auto_indent_summary">Automatically indent new lines to match the line above.</string>
+    <string name="pref_close_brackets_title">Auto-close Brackets</string>
+    <string name="pref_close_brackets_summary">Automatically close open parenthesis/bracket/brace when typing.</string>
+    <string name="pref_close_quotes_title">Auto-close Quotes</string>
+    <string name="pref_close_quotes_summary">Automatically close single/double quote when typing.</string>
+    <string name="pref_use_spaces_not_tabs_title">Use spaces instead of tabs</string>
+    <string name="pref_use_spaces_not_tabs_summary">Insert spaces instead of tabs when using auto-indentation.</string>
+    <string name="pref_tab_width_title">Tab Width</string>
+    <string name="pref_tab_width_summary">Specify the displayed width of tabs in the editor.</string>
+
+    <string name="pref_encoding_auto_detect_title">Encoding auto-detect</string>
+    <string name="pref_encoding_auto_detect_summary">Encoding auto-detection is useful for multi-byte language.</string>
+    <string name="pref_encoding_for_opening_title">Encoding for opening files</string>
+    <string name="pref_encoding_for_opening_summary">Encoding to use when opening files.</string>
+    <string name="pref_encoding_for_saving_title">Encoding for saving files</string>
+    <string name="pref_encoding_for_saving_summary">Encoding to use when saving files.</string>
+    <string name="pref_linebreaks_for_saving_files_title">Linebreaks for saving files</string>
+    <string name="pref_linebreaks_for_saving_files_summary">Linebreak type to use when saving files.</string>
+    <string name="pref_allow_open_unknown_files_title">Open unknown files</string>
+    <string name="pref_allow_open_unknown_files_summary">Allows you to open any files in the editor.</string>
+    <string name="pref_show_hidden_files_title">Show hidden files</string>
+    <string name="pref_show_hidden_files_summary">Hidden files and folders (starting with a dot) will be displayed.</string>
+    <string name="pref_folders_on_top_title">Folders on top</string>
+    <string name="pref_folders_on_top_summary">Folders will be displayed on top.</string>
+    <string name="pref_view_mode_title">View Mode</string>
+    <string name="pref_sort_mode_title">Sort Mode</string>
+
+    <string name="pref_about_summary">Copyright 2020 Black Squircle\nAll right reserved\n\nVersion: %1$s (%2$d)</string>
+    <string name="pref_privacy_policy_title">Privacy Policy</string>
+    <string name="pref_contribute_title">Contribute to development</string>
+    <string name="pref_contribute_summary">You can create an issue on GitHub or translate this app to your native language.\n\nThank you!</string>
+
+</resources>
